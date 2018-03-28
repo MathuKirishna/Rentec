@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/house" />
+        <item
+            android:id="@+id/nav_wishlist"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="@string/categary" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="@string/customerchat" />
+        <item
+            android:id="@+id/nav_lawyernotification"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="@string/notification" />
+    </group>
+
+
+
+    <item android:title="Owner">
+        <menu>
+            <item
+                android:id="@+id/nav_ownerregister"
+                android:icon="@drawable/ic_description_black_24dp"
+                android:title="@string/register" />
+            <item
+                android:id="@+id/nav_ownerpost"
+                android:icon="@drawable/ic_content_paste_black_24dp"
+                android:title="@string/mypost" />
+            <item
+                android:id="@+id/nav_ownerchat"
+                android:icon="@drawable/ic_message_black_24dp"
+                android:title="@string/ownerchat" />
+
+
+        </menu>
+    </item>
+    <item android:title="Law">
+        <menu>
+            <item
+                android:id="@+id/nav_lawregister"
+                android:icon="@drawable/ic_description_black_24dp"
+                android:title="@string/register" />
+            <item
+                android:id="@+id/nav_lawrequest"
+                android:icon="@drawable/ic_work_black_24dp"
+                android:title="@string/requests" />
+        </menu>
+    </item>
+    <item android:title="Personal">
+        <menu>
+            <item
+                android:id="@+id/nav_mydetails"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="@string/mydetils" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_lock_black_24dp"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+
+</menu>

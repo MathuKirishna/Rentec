@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spartans.rentec.OwnerAddShopActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:padding="15dp"
+        android:background="#90CAF9"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/textView2" />
+
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"
+        android:padding="15dp"
+        android:text="@string/owneraddshop"
+        android:textAlignment="center"
+        android:textColor="#1565C0"
+        android:textSize="15dp" />
+
+
+    <ImageView
+        android:id="@+id/owneraddshopimg"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/shoppingcart"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/owneraddshopimgbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/owneraddshopimg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/add_pic"
+        android:background="@color/button_theme_color"
+        android:onClick="takePictureshop"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/owneraddshopimgbtn"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/Regno" />
+
+    <EditText
+        android:id="@+id/owneraddshopregno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/owneraddshopimgbtn"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="17dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView4"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/area" />
+
+    <EditText
+        android:id="@+id/owneraddshoparea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/owneraddshopregno"
+        android:layout_marginStart="50dp"
+
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+            <TextView
+                android:id="@+id/txtview0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/owneraddshoparea"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="30dp"
+
+                android:text="@string/chosedistrict" />
+
+            <Spinner
+                android:id="@+id/spinnerowneraddshop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtview0"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginEnd="30dp" />
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/spinnerowneraddshop"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/type" />
+
+    <RadioGroup
+        android:id="@+id/owneraddshoptype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/type"
+        android:layout_below="@+id/txtview"
+        android:layout_alignStart="@+id/textView3"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/owneraddshoptypelux"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/lux" />
+
+        <RadioButton
+            android:id="@+id/owneraddshoptypenrml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nrml" />
+
+        <RadioButton
+            android:id="@+id/owneraddshoptypeflat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flat" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Rent Per Month"
+        android:layout_below="@+id/owneraddshopselectac"
+        android:layout_alignStart="@+id/textView" />
+
+    <EditText
+        android:id="@+id/owneraddshoprpd"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/owneraddshopsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/button_theme_color"
+        android:text="Save"
+        android:layout_alignBottom="@+id/owneraddshoprpd"
+        android:layout_alignEnd="@+id/textView"
+        />
+
+    <RadioGroup
+        android:id="@+id/owneraddshopselectac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/owneraddshoptype"
+        android:layout_alignStart="@+id/textView3"
+
+        android:layout_marginEnd="21dp"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal">
+    <RadioButton
+        android:id="@+id/owneraddshopac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/ac" />
+
+    <RadioButton
+        android:id="@+id/owneraddshopnonac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nonac" />
+
+    </RadioGroup>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

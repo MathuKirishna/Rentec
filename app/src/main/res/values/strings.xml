@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Rentec</string>
+    <string name="username">User Name</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="action_sign_in_short">Sign Up</string>
+    <string name="btn_link_to_login">Already registered! Login Here.</string>
+    <string name="i_am_a">I am a</string>
+    <string name="customer">Customer</string>
+    <string name="lawyer">Lawyer</string>
+    <string name="owner">Owner</string>
+    <string name="title_activity_summa">summa</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Rentec now!</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="phonenumber">Phone number</string>
+    <string name="streetaddress">Street Address</string>
+    <string name="optionalstreetaddress">(Optional)</string>
+    <string name="city">City</string>
+    <string name="province">Province</string>
+    <string name="save">Save</string>
+    <string name="mail">Mail</string>
+    <string name="dob">Date of Birth</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="nic">NIC</string>
+    <string name="edit">Edit and Save</string>
+    <string name="roll">Role</string>
+    <string name="edituserdetails">Edit User Details</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_wall">Rentec</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="home">House</string>
+    <string name="wishlist">WishList</string>
+    <string name="chat">Chat</string>
+    <string name="register">Register</string>
+    <string name="mypost">My Post</string>
+    <string name="mydetils">My Details</string>
+    <string name="requests">Requests</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="radio_gender">Gender</string>
+    <string name="title_activity_owner_register">Register As Owner</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="ownerregister1">Register As Owner</string>
+    <string name="ownerregister2">Post Your Sells</string>
+    <string name="ownerregister3">Connect With Customer</string>
+    <string name="ownerregister4">Sell And Earn Money</string>
+    <string name="title_activity_lawyer_register">LawyerRegisterActivity</string>
+    <string name="lawyerregister1">Register As Lawyer</string>
+    <string name="lawyerregister2">View Requests And Documents</string>
+    <string name="lawyerregister3">Earn Money Via Agreements</string>
+    <string name="customernumber">0212222404</string>
+    <string name="streetaddressnumber">Address Number</string>
+    <string name="ownermypost">My Post</string>
+    <string name="owneraddhouse">Post House</string>
+    <string name="area">Area</string>
+    <string name="type">Type</string>
+    <string name="add_pic">Add Picture</string>
+    <string name="lux">Luxury</string>
+    <string name="nrml">Normal</string>
+    <string name="flat">Flat</string>
+    <string name="owneraddshop">Post Shop</string>
+    <string name="ac">AC</string>
+    <string name="nonac">Non AC</string>
+    <string name="owneraddbike">Post Bike</string>
+    <string name="model">Model</string>
+    <string name="color">Color</string>
+    <string name="year">Year</string>
+
+    <string-array name="array_post">
+        <item>Anurathapura</item>
+        <item>Ambalangoda</item>
+        <item>Badula</item>
+         <item>Colombo</item>
+        <item>Galle</item>
+        <item>Hambantota</item>
+        <item>Jaffna</item>
+        <item>Kandy</item>
+        <item>Kilinochi</item>
+        <item>Mannar</item>
+        <item>Nuwareliya</item>
+        <item>Puttalam</item>
+        <item>Ratnpura</item>
+        <item>Tringomalee</item>
+
+
+    </string-array>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="deleteconnection">Delete</string>
+    <string name="acceptconnection">Accept</string>
+    <string name="Regno">Register No</string>
+    <string name="Browse">Browse Our Categories</string>
+    <string name="shop">Shop</string>
+    <string name="motorbike">Vehicle</string>
+    <string name="categary">Category</string>
+    <string name="interest">Interest</string>
+    <string name="chosedistrict">Choose a District</string>
+    <string name="house">Home</string>
+    <string name="seating"> Seats</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="customerchat">Customer Chat</string>
+    <string name="ownerchat">Owner Chat</string>
+    <string name="notification">Notification</string>
+    <string name="selectlawyer">Select  A Lawyer</string>
+    <string name="lawyerrequests">Pending Requests</string>
+    <string name="mynotify">My Notifications</string>
+
+</resources>

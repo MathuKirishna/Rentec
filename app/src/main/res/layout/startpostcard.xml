@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/carts_view_main_startpost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/border"
+        android:padding="3dp"
+        app:cardBackgroundColor="@color/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp">
+
+
+            <ImageView
+                android:id="@+id/imgstartpost"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+
+                android:layout_marginTop="7dp"
+
+                android:text="Btn"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:id="@+id/txtstartpostline1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgstartpost"
+                android:paddingLeft="20dp"
+
+                android:text="Line1"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/txtstartpostline1"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/imgstartpost"
+                android:layout_height="5dp"
+                android:padding="15dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:id="@+id/txtstartpostline2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtstartpostline1"
+
+                android:layout_toRightOf="@+id/imgstartpost"
+                android:paddingLeft="15dp"
+                android:text="Line2"
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/txtstartpostline2"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/imgstartpost"
+                android:layout_height="5dp"
+                android:padding="15dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:id="@+id/txtstartpostline3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtstartpostline2"
+
+                android:layout_toRightOf="@+id/imgstartpost"
+                android:paddingLeft="15dp"
+                android:text="Line3"
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/txtstartpostline3"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/imgstartpost"
+                android:layout_height="5dp"
+                android:padding="15dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:id="@+id/txtstartpostline4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtstartpostline3"
+
+                android:layout_toRightOf="@+id/imgstartpost"
+                android:paddingLeft="15dp"
+                android:text="Line4"
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/txtstartpostline4"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/imgstartpost"
+                android:layout_height="5dp"
+                android:padding="15dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/startpostlinear1"
+                android:layout_below="@+id/txtstartpostline4"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+                <TextView
+
+                    android:id="@+id/txtstartpostrentview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:paddingLeft="10dp"
+                    android:text="Rent Per Day"
+
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    />
+                <TextView
+
+                    android:id="@+id/txtstartpostrent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:text="Rent Per Day"
+
+                    android:textColor="#000000"
+                    android:layout_weight="1"
+                    android:textSize="15dp"
+                    />
+
+            </LinearLayout>
+            <Button
+
+                android:id="@+id/buttonownerpostinterest"
+                android:layout_width="match_parent"
+
+                android:layout_height="30dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/startpostlinear1"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:background="#1b94f7"
+
+                android:text="@string/interest"
+                android:textColor="#ffffff" />
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

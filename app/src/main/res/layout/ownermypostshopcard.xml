@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:id="@+id/carts_view_main_shop"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:background="@drawable/border"-->
+        <!--android:padding="3dp"-->
+        <!--app:cardBackgroundColor="@color/colorPrimary">-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="3dp">-->
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imgownermypostshop"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:padding="3dp"-->
+                <!--android:layout_marginTop="7dp"-->
+
+                <!--android:text="Btn"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_alignParentStart="true" />-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/txtOwnermypostareashop"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_toRightOf="@+id/imgownermypostshop"-->
+                <!--android:paddingLeft="100dp"-->
+
+                <!--android:text="Area"-->
+                <!--android:textSize="20dp" />-->
+            <!--<TextView-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_below="@+id/txtOwnermypostareashop"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_toRightOf="@+id/imgownermypostshop"-->
+                <!--android:layout_height="5dp"-->
+                <!--android:padding="15dp"-->
+                <!--android:background="#ffffff"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--/>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/txtownermypostlinear2"-->
+
+                <!--android:layout_below="@+id/txtOwnermypostareashop"-->
+                <!--android:layout_toRightOf="@+id/imgownermypostshop"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="2"-->
+                <!--&gt;-->
+                <!--<TextView-->
+
+
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/txtownermyposttypeshop"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:text="Type"-->
+
+
+                    <!--android:textSize="20dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--/>-->
+                <!--<TextView-->
+
+                    <!--android:id="@+id/txtownermypostacshop"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+
+
+                    <!--android:text="A/C"-->
+
+                    <!--android:paddingLeft="30dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textSize="20dp"-->
+                    <!--/>-->
+
+            <!--</LinearLayout>-->
+            <!--<TextView-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_below="@+id/txtownermypostlinear2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_toRightOf="@+id/imgownermypostshop"-->
+                <!--android:layout_height="5dp"-->
+                <!--android:padding="15dp"-->
+                <!--android:background="#ffffff"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--/>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:layout_below="@+id/txtownermypostlinear2"-->
+                <!--android:layout_toRightOf="@+id/imgownermypostshop"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="2"-->
+                <!--&gt;-->
+                <!--<TextView-->
+
+
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:text="Rent Per Month"-->
+
+                    <!--android:textColor="#000000"-->
+                    <!--android:textSize="18dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--/>-->
+                <!--<TextView-->
+
+                    <!--android:id="@+id/txtownermypostrentpermonthshop"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+
+
+                    <!--android:text="Rent Per Month"-->
+
+                    <!--android:textColor="#000000"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textSize="18dp"-->
+                    <!--/>-->
+
+            <!--</LinearLayout>-->
+
+
+
+
+
+
+
+
+        <!--</RelativeLayout>-->
+
+    <!--</android.support.v7.widget.CardView>-->
+
+</RelativeLayout>

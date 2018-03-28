@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "87772009876",
+    "firebase_url": "https://rentecchatapp.firebaseio.com",
+    "project_id": "rentecchatapp",
+    "storage_bucket": "rentecchatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87772009876:android:289dcdb9684a5490",
+        "android_client_info": {
+          "package_name": "com.spartans.rentec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87772009876-176d1ruab41fpqet1jk86u8pqmea6psk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spartans.rentec",
+            "certificate_hash": "e5366f39e21907a75dc97d0acdd13e79fa5605f5"
+          }
+        },
+        {
+          "client_id": "87772009876-q5cn5f7sgk2oamtfuem5e7vfe6drjio7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHk6NOfNJDEI2R8qx-9otBlpn2akrxD0Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87772009876-q5cn5f7sgk2oamtfuem5e7vfe6drjio7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

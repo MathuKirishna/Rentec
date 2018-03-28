@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spartans.rentec.OwnerAddBikeActivity">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="40dp"
+                android:background="#90CAF9"
+                android:padding="15dp" />
+
+
+            <TextView
+
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ffffff"
+                android:padding="15dp"
+                android:text="@string/owneraddbike"
+                android:textAlignment="center"
+                android:textColor="#1565C0"
+                android:textSize="15dp" />
+
+
+            <ImageView
+                android:id="@+id/owneraddbikeimg"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@drawable/motorbike" />
+
+            <Button
+                android:id="@+id/owneraddbikeimgbtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/owneraddbikeimg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:background="@color/button_theme_color"
+                android:onClick="takePicturebike"
+                android:text="@string/add_pic" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/owneraddbikeimgbtn"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/Regno" />
+
+            <EditText
+                android:id="@+id/owneraddbikeregno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/owneraddbikeimgbtn"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textView3"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/textView4"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/model" />
+
+            <EditText
+                    android:id="@+id/owneraddbikemodel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/owneraddbikeregno"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/textView3"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/txtview13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/textView3"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="35dp"
+                android:text="@string/color" />
+
+            <EditText
+                android:id="@+id/owneraddbikecolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/owneraddbikemodel"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/textView3"
+                android:ems="10"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/txtview12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/txtview13"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="35dp"
+                android:text="Seats" />
+
+            <EditText
+                    android:id="@+id/owneraddbikeseat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/owneraddbikecolor"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textView3"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/txtview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/txtview12"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="35dp"
+                android:text="@string/year" />
+
+            <EditText
+                android:id="@+id/owneraddbikeyear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/owneraddbikeseat"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textView3"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/txtview0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                android:text="@string/chosedistrict"
+                android:layout_below="@+id/owneraddbikeyear"
+                android:layout_alignStart="@+id/txtview2" />
+
+            <Spinner
+                android:id="@+id/spinnerowneraddbike"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtview0"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="21dp"
+
+                android:layout_marginTop="10dp" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:text="Rent Per Hour"
+                android:layout_below="@+id/spinnerowneraddbike"
+                android:layout_alignStart="@+id/txtview0" />
+
+            <EditText
+                android:id="@+id/owneraddbikerpd"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+
+                android:ems="10"
+
+                android:inputType="textPersonName"
+                android:layout_alignBaseline="@+id/textView6"
+                android:layout_alignBottom="@+id/textView6"
+                android:layout_alignEnd="@+id/owneraddbikeyear" />
+
+            <Button
+                android:id="@+id/owneraddbikesave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/owneraddbikerpd"
+                android:layout_centerHorizontal="true"
+                android:background="@color/button_theme_color"
+                android:text="Save" />
+            </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
